@@ -200,6 +200,13 @@ main {
     color: #13183F;
     font-size: 20px;
 }
+h5 {
+    cursor: pointer;
+}
+h5:hover {
+    color: #FFA7C3;
+
+}
 .businesss {
     width: 286px;
     height: 78px;
@@ -276,8 +283,9 @@ h2 {
 @media screen and (min-width: 1440px) {
     .card-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
         padding: 165px;
+        column-gap: 30px;
     }
     .girl {
         display: none;
@@ -298,6 +306,7 @@ h2 {
    main {
     background-image: none;
     background-color: unset;
+    padding: 0;
    }
    .get {
     width: 167px;
